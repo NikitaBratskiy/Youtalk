@@ -1,0 +1,284 @@
+/* Адаптивность */
+@media (max-width: 1200px)
+/*1200*/
+    {
+    .filter-hr {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px)
+/*1024*/
+    {
+
+    .ftl-petno,
+    .ftl-cont,
+    .petno2,
+    .ftl-image,
+    .filter-bottom,
+    .filter-hr {
+        display: none;
+    }
+
+}
+
+/* Для экранов шириной 768px и меньше (планшеты и мобильные устройства) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .detail-blog {
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .detail-blog-right {
+        gap: 36px 16px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .blog-r {
+        width: calc(50% - 16px);
+    }
+
+    .blog-right1,
+    .blog-right2 {
+        margin: 0;
+        height: 481px;
+    }
+
+    .blog-right3,
+    .blog-right4 {
+        height: 245px;
+    }
+
+    .blog-right1>img {
+        width: 257px;
+        height: 206px;
+
+    }
+
+    .button-container>a {
+        display: none;
+    }
+
+    .mobile-menu {
+        background-repeat: no-repeat;
+        background-image: url(/img/spisok.svg);
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        display: block;
+    }
+
+    .content-top>.content-item {
+        width: 100%;
+    }
+
+    .content-bottom>.content-item {
+        width: calc(100% / 2 - 24px);
+    }
+
+    footer .social-links ul {
+        flex-direction: column;
+    }
+
+    footer .social-links ul li {
+        margin-bottom: 10px;
+    }
+
+    .image-vector,
+    .newsletter-form button {
+        display: none;
+    }
+
+    .footer-newsletter {
+        width: 288px;
+    }
+}
+
+/* Для экранов шириной 480px и меньше (мобильные устройства) */
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+    }
+
+    .content-bottom>.content-item {
+        width: 100%;
+    }
+
+    footer .social-links ul {
+        flex-direction: column;
+    }
+
+    .image-vector {
+        display: none;
+    }
+
+    .filter {
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .filter-item {
+        flex-shrink: 0;
+    }
+
+    .filter::-webkit-scrollbar {
+        display: none;
+    }
+
+    .footer-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .footer-links {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .detail-blog-left,
+    .detail-blog-rtigh {
+        width: 374px;
+    }
+
+    .zg1>h1 {
+        font-size: 32px;
+    }
+    .content2,
+    .contentp2{
+        height: auto;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+.content2>img{
+    padding: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.content4,
+.content8,
+.content11{
+    flex-direction: column;
+}
+.blog-r,
+.content11-2>img,
+.content11-1>img,
+.content8-1>img,
+.content8-1,
+.content4-1>img
+{
+    width: 100%;
+}
+.content4-1>img,
+.content8-1>img
+{
+    max-width: 100%;
+}
+.blog-right3{
+    margin: 0;
+}
+.breadcrumbs {
+    width: 374px;              /* Ограничиваем ширину всей навигации */
+    overflow: hidden;          /* Скрываем содержимое, выходящее за пределы */
+    white-space: nowrap;       /* Запрещаем перенос текста */
+    scrollbar-width: none;     /* Скрыть скроллбар в Firefox */
+    -ms-overflow-style: none;  /* Скрыть скроллбар в IE и Edge */
+}
+
+.breadcrumbs ul {
+    display: flex;             /* Располагаем элементы в одну строку */
+    padding: 0;
+    margin: 0;
+    list-style: none;          /* Убираем маркеры списка */
+    overflow: hidden;          /* Обрезаем лишний текст */
+}
+
+.breadcrumbs li {
+    flex-shrink: 0;            /* Убираем сжатие элементов списка */
+    overflow: hidden;          /* Скрываем текст, который выходит за пределы */
+    white-space: nowrap;       /* Запрещаем перенос текста */
+    text-overflow: ellipsis;   /* Добавляем троеточие для текста */
+    max-width: 223px;          /* Задаем максимальную ширину каждого элемента */
+}
+
+.breadcrumbs li + li {
+    margin-left: 10px;         /* Добавляем отступ между элементами */
+}
+
+.breadcrumbs::-webkit-scrollbar {
+    display: none;             /* Скрываем скроллбар в WebKit-браузерах */
+}
+}
+/* Для экранов шириной 320px и меньше (мобильные устройства) */
+@media (max-width: 320px) {
+    .detail-blog-left,
+    .detail-blog-rtigh {
+        width: 288px;
+    }
+    .breadcrumbs {
+        width: 288px;              /* Ограничиваем ширину всей навигации */
+        overflow: hidden;          /* Скрываем содержимое, выходящее за пределы */
+        white-space: nowrap;       /* Запрещаем перенос текста */
+        scrollbar-width: none;     /* Скрыть скроллбар в Firefox */
+        -ms-overflow-style: none;  /* Скрыть скроллбар в IE и Edge */
+    }
+    
+    .breadcrumbs ul {
+        display: flex;             /* Располагаем элементы в одну строку */
+        padding: 0;
+        margin: 0;
+        list-style: none;          /* Убираем маркеры списка */
+        overflow: hidden;          /* Обрезаем лишний текст */
+    }
+    
+    .breadcrumbs li {
+        flex-shrink: 0;            /* Убираем сжатие элементов списка */
+        overflow: hidden;          /* Скрываем текст, который выходит за пределы */
+        white-space: nowrap;       /* Запрещаем перенос текста */
+        text-overflow: ellipsis;   /* Добавляем троеточие для текста */
+        max-width: 130px;          /* Задаем максимальную ширину каждого элемента */
+    }
+    
+    .breadcrumbs li + li {
+        margin-left: 10px;         /* Добавляем отступ между элементами */
+    }
+    
+    .breadcrumbs::-webkit-scrollbar {
+        display: none;             /* Скрываем скроллбар в WebKit-браузерах */
+    }
+    .blog-right1,
+    .blog-right2 {
+        margin: 0;
+        height: 512px;
+    }
+    .blog-right3,
+    .blog-right4 {
+        height: 270px;
+    }
+}

@@ -1,0 +1,665 @@
+.detail-blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-blog-left {
+    width: 690px;
+}
+
+.content-sdr {
+    margin-bottom: 40px;
+}
+
+.sdr {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 24px;
+    padding-bottom: 16px;
+}
+
+.h3 {
+    margin-bottom: 16px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.h5 {
+    margin-bottom: 8px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.ph1 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.ph2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.h3-2 {
+    display: flex;
+    padding: 24px;
+    background-color: #F3F7FE;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    gap: 8px;
+    border-radius: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.zap {
+    position: absolute;
+}
+
+.blphoto {
+    margin: 24px 0 24px 0;
+}
+
+.podval {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: 0.25px;
+    color: #868686;
+    margin-top: 16px;
+}
+
+.content1 {
+    margin-bottom: 24px;
+}
+
+.content2 {
+    display: flex;
+    height: 168px;
+    margin-bottom: 24px;
+}
+
+.content2>img {
+    position: absolute;
+    z-index: -1;
+    padding: 0 225.5px 0 225.5px;
+}
+
+.contentp2 {
+    padding-top: 24px;
+    width: 485px;
+    height: 96px;
+    margin-left: 102px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* Контейнер */
+.content4 {
+    display: flex;
+    /* Устанавливаем flex-контейнер */
+    gap: 24px;
+    /* Отступ между изображением и текстом */
+    align-items: flex-start;
+    /* Выравниваем элементы по верхнему краю */
+    margin: 24px 0;
+    /* Отступ сверху и снизу */
+}
+
+/* Изображение */
+.content4-1 img {
+    max-width: 300px;
+    /* Максимальная ширина изображения */
+    height: auto;
+    /* Пропорциональная высота */
+}
+
+/* Текст */
+.content4-2 {
+    flex: 1;
+    /* Текст занимает оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+    /* Текстовые абзацы располагаются вертикально */
+}
+
+.content4-2>p {
+    font-family: Montserrat, sans-serif;
+    /* Шрифт */
+    font-size: 16px;
+    /* Размер текста */
+    font-weight: 500;
+    /* Жирность текста */
+    line-height: 24px;
+    /* Межстрочный интервал */
+    text-align: left;
+    /* Выравнивание текста по левому краю */
+    margin: 0 0 16px 0;
+    /* Отступы между абзацами */
+}
+
+.content5 {
+    margin-bottom: 24px;
+}
+
+.content6 {
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: #FEFAEC;
+}
+
+.content7 {
+    margin-bottom: 24px;
+}
+
+/* Контейнер */
+.content8 {
+    margin-bottom: 24px;
+    display: flex;
+    /* Устанавливаем flex-контейнер */
+    gap: 24px;
+    /* Отступ между изображением и текстом */
+    align-items: flex-start;
+    /* Выравниваем элементы по верхнему краю */
+    margin: 24px 0;
+    /* Отступ сверху и снизу */
+}
+
+/* Изображение */
+.content8-1 img {
+    max-width: 300px;
+    /* Максимальная ширина изображения */
+    height: auto;
+    /* Пропорциональная высота */
+}
+
+/* Текст */
+.content8-2 {
+    flex: 1;
+    /* Текст занимает оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+    /* Текстовые абзацы располагаются вертикально */
+}
+
+.content8-2>p {
+    font-family: Montserrat, sans-serif;
+    /* Шрифт */
+    font-size: 16px;
+    /* Размер текста */
+    font-weight: 500;
+    /* Жирность текста */
+    line-height: 24px;
+    /* Межстрочный интервал */
+    text-align: left;
+    /* Выравнивание текста по левому краю */
+    margin: 0 0 16px 0;
+    /* Отступы между абзацами */
+}
+
+.content9 {
+    margin-bottom: 24px;
+}
+
+.content10 {
+    margin-bottom: 24px;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #FFF3EB;
+}
+
+/* Контейнер для всех блоков */
+.content11 {
+    display: flex;
+    /* Устанавливаем горизонтальное расположение блоков */
+    gap: 24px;
+    /* Отступ между блоками */
+    margin-bottom: 24px;
+}
+
+/* Каждый отдельный блок */
+.content11-1,
+.content11-2 {
+    display: flex;
+    /* Включаем flex для элементов внутри блока */
+    flex-direction: column;
+    /* Располагаем элементы вертикально */
+    align-items: center;
+    /* Центрируем содержимое по горизонтали */
+    text-align: left;
+}
+
+/* Изображения */
+.content11-1 img,
+.content11-2 img {
+    border-radius: 8px;
+    /* Закругленные углы (опционально) */
+    margin-bottom: 24px;
+    /* Отступ снизу для изображения */
+}
+
+/* Текст */
+.content11-1 p,
+.content11-2 p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer-logo {
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+.content12 {
+    margin-bottom: 24px;
+}
+
+.content13 {
+    
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #03B2A51A;
+}
+
+.filter-bottom {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+.ftb{
+
+    color: #2963A3;
+    display: flex;
+    align-items: left;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+.filter-hr{
+    width: 1200px;
+    margin-bottom: 72px;
+}
+/* Общий контейнер */
+.ftl {
+    position: relative;
+    display: flex; /* Устанавливаем горизонтальное расположение */
+    align-items: top; /* Выравниваем элементы по вертикали */
+    justify-content: space-between; /* Распределяем элементы с отступами */
+    background-color: #fff; /* Белый фон (или ваш цвет) */
+    margin-bottom: 120px;
+}
+.petno3{
+    z-index: 2;
+    position: absolute;
+    right: 0;
+}
+.petno2{
+  position: absolute;
+  right: 0;
+  top: 2457px;
+}
+.ftl-text h2 {
+    font-family: Montserrat, sans-serif; /* Шрифт заголовка */
+    font-size: 48px; /* Размер заголовка */
+    font-weight: 700; /* Жирность заголовка */
+    line-height: 40px; /* Межстрочный интервал */
+    margin-bottom: 24px; /* Отступ снизу */
+    color: #333; /* Цвет текста */
+}
+
+.ftl-text p {
+    font-family: Montserrat, sans-serif; /* Шрифт для текста */
+    font-size: 16px; /* Размер текста */
+    font-weight: 400; /* Нормальная жирность текста */
+    line-height: 24px; /* Межстрочный интервал */
+    margin-bottom: 24px; /* Отступ снизу */
+    color: #666; /* Цвет текста */
+}
+.ftl-text{
+    width: 348px;
+}
+.ftl-button {
+    width: 238px;
+    height: 60px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px; /* Размер текста кнопки */
+    font-weight: 600; /* Полужирный текст */
+    color: #fff; /* Белый текст */
+    background-color: #03B2A5; /* Цвет кнопки */
+    padding: 12px 24px; /* Внутренние отступы кнопки */
+    border: none; /* Убираем границы */
+    border-radius: 4px; /* Закругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.detail-blog-right {
+    width: 282px;
+}
+
+.avtor {
+    margin-bottom: 24px;
+}
+
+.blog-right1>img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-right1 {
+    padding: 24px;
+    background-color: #E6F0FD;
+    text-align: center;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    margin-top: 54px;
+}
+
+.right-p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 0 8px;
+}
+
+.right-p-desc {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+.brt1 {
+    width: 100%;
+    background-color: #35B3A9;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 0;
+    border: none;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+
+.clickbait {
+
+    margin-bottom: 8px;
+    background-color: #F3F4F8B2;
+    border-radius: 6px;
+    border: none;
+}
+
+.clickbait-items {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.blog-right2 {
+    position: relative;
+    background: none;
+    padding: 24px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 16px;
+    margin-bottom: 28px;
+    border: 1px solid #DEDEDE;
+}
+
+.blog-right2>img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 16px;
+}
+
+.r-p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.r-p-2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.r-p-d {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A2A7B1;
+    margin-bottom: 16px;
+}
+
+hr {
+    margin-bottom: 16px;
+}
+
+.rp2-desc {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.li1 {
+    padding-left: 56px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.li2 {
+    padding-left: 72px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.li3 {
+    padding-left: 88px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.death-right,
+.death1,
+.death3 {
+    list-style: none;
+    /* Убираем стандартные маркеры */
+    padding: 0;
+    /* Убираем отступы списка */
+    margin: 0;
+}
+
+.death1 {
+    text-decoration: underline;
+}
+
+.structure {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.death2 {
+    gap: 4px;
+}
+
+.death-right li,
+.death1>li,
+.death3>li {
+    position: relative;
+    /* Позиционирование для точек */
+    padding-left: 24px;
+    /* Отступ для текста */
+    margin-bottom: 10px;
+    /* Расстояние между элементами списка */
+    text-align: left;
+}
+
+.death-right li::before,
+.death1>li::before,
+.death3>li::before {
+    content: '';
+    /* Добавляем кастомную точку */
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: 0;
+    /* Расположение точки слева */
+    top: 50%;
+    /* Центрируем по вертикали */
+    transform: translateY(-50%);
+    /* Выравниваем по вертикали */
+    width: 8px;
+    /* Диаметр точки */
+    height: 8px;
+    /* Диаметр точки */
+    background-color: #03B2A5;
+    /* Цвет точки */
+    border-radius: 50%;
+    /* Делаем точку круглой */
+}
+
+.brt2 {
+    width: 100%;
+    background-color: #35B3A9;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 0;
+    border: none;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.blog-right3 {
+    position: relative;
+    ;
+    text-align: center;
+    background-color: #2963A3;
+    border-radius: 16px;
+    height: 292px;
+    margin-bottom: 48px;
+}
+
+.particle3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.podarki3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.text3 {
+    padding-top: 60px;
+    font-family: Montserrat;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.blog-right4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 24px;
+    border: 1px solid #DEDEDE;
+    padding: 32px;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.num8 {
+    color: #2963A3;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.money {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.btn4 {
+    width: 108px;
+    height: 48px;
+    gap: 8px;
+    border-radius: 4px;
+    border: none;
+    opacity: 0px;
+    background-color: #35B3A9;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.blog-right4>img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.brp1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #2963A3;
+}
+
+.brp2 {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #011632;
+    margin-right: 22px;
+}
+
+.image-vector {
+    z-index: -1;
+    height: 100px;
+    top: -85px;
+}
